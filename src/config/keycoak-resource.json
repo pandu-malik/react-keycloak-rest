@@ -1,0 +1,436 @@
+{
+  "allowRemoteResourceManagement": true,
+  "policyEnforcementMode": "ENFORCING",
+  "resources": [
+    {
+      "name": "Claim",
+      "type": "urn:new-insurance:resource:menu",
+      "ownerManagedAccess": false,
+      "displayName": "Claim",
+      "attributes": {
+        "is_maintenance": [
+          "false"
+        ]
+      },
+      "_id": "886525d8-fdbe-4adb-b09d-3a520e419012",
+      "uris": [
+        "/claim"
+      ],
+      "scopes": [
+        {
+          "name": "claim:approval"
+        },
+        {
+          "name": "scope:head_access"
+        }
+      ]
+    },
+    {
+      "name": "Dashboard",
+      "type": "urn:new-insurance:resource:menu",
+      "ownerManagedAccess": false,
+      "displayName": "Dashboard",
+      "attributes": {
+        "is_maintenance": [
+          "false"
+        ]
+      },
+      "_id": "36ec8588-626f-44e1-9d3e-343f04e48964",
+      "uris": [
+        "/"
+      ],
+      "scopes": [
+        {
+          "name": "scope:staff_access"
+        },
+        {
+          "name": "scope:head_access"
+        }
+      ]
+    },
+    {
+      "name": "Insurance Coy Branch",
+      "type": "urn:new-insurance:resource:menu",
+      "ownerManagedAccess": false,
+      "displayName": "Insurance Coy Branch",
+      "attributes": {
+        "is_maintenance": [
+          "false"
+        ]
+      },
+      "_id": "b99faead-d27a-4169-ad4a-fadfeba42207",
+      "uris": [
+        "/insurance-coy-branch"
+      ],
+      "scopes": [
+        {
+          "name": "scope:head_access"
+        }
+      ]
+    },
+    {
+      "name": "Insurance Coy Head Office",
+      "type": "urn:new-insurance:resource:menu",
+      "ownerManagedAccess": false,
+      "displayName": "Insurance Coy Head Office",
+      "attributes": {
+        "is_maintenance": [
+          "false"
+        ]
+      },
+      "_id": "7dff43c5-897c-436c-b3db-b478fa26910b",
+      "uris": [
+        "/insurance-coy-head-office"
+      ],
+      "scopes": [
+        {
+          "name": "scope:head_access"
+        }
+      ],
+      "icon_uri": ""
+    },
+    {
+      "name": "Insurance Premi",
+      "type": "urn:new-insurance:resource:menu",
+      "ownerManagedAccess": false,
+      "displayName": "Insurance Premi",
+      "attributes": {
+        "is_maintenance": [
+          "true"
+        ]
+      },
+      "_id": "1a04f5af-8553-42f0-94df-b4fea9795bb1",
+      "uris": [
+        "/insurance-premi"
+      ],
+      "scopes": [
+        {
+          "name": "scope:head_access"
+        }
+      ]
+    },
+    {
+      "name": "Insurance Product Offering",
+      "type": "urn:new-insurance:resource:menu",
+      "ownerManagedAccess": false,
+      "displayName": "Insurance Product Offering",
+      "attributes": {
+        "is_maintenance": [
+          "true"
+        ]
+      },
+      "_id": "745d034d-1ced-4e3b-ad01-058e4260e32d",
+      "uris": [
+        "/insurance-product-offering"
+      ],
+      "scopes": [
+        {
+          "name": "scope:head_access"
+        }
+      ]
+    },
+    {
+      "name": "Insurance Rate",
+      "type": "urn:new-insurance:resource:menu",
+      "ownerManagedAccess": false,
+      "displayName": "Insurance Rate",
+      "attributes": {},
+      "_id": "ddd54ea5-a245-4b3e-8057-b754675c98d8",
+      "uris": [
+        "/insurance-rate"
+      ],
+      "scopes": [
+        {
+          "name": "scope:head_access"
+        }
+      ]
+    },
+    {
+      "name": "Insurance Segment",
+      "type": "urn:new-insurance:resource:menu",
+      "ownerManagedAccess": false,
+      "displayName": "Insurance Segment",
+      "attributes": {},
+      "_id": "c01c51f8-c903-4330-a35a-c92e02c206ed",
+      "uris": [
+        "/insurance-segment"
+      ],
+      "scopes": [
+        {
+          "name": "scope:head_access"
+        }
+      ]
+    },
+    {
+      "name": "Report",
+      "type": "urn:new-insurance:resource:menu",
+      "ownerManagedAccess": false,
+      "displayName": "Report",
+      "attributes": {},
+      "_id": "988d9f44-0085-4085-a710-5df3d6b13fb7",
+      "uris": [
+        "/report"
+      ],
+      "scopes": [
+        {
+          "name": "scope:staff_access"
+        },
+        {
+          "name": "scope:head_access"
+        }
+      ]
+    },
+    {
+      "name": "Segment Fee",
+      "type": "urn:new-insurance:resource:menu",
+      "ownerManagedAccess": false,
+      "displayName": "Segment Fee",
+      "attributes": {},
+      "_id": "a2f21a09-0277-4c27-94ea-ea36c1e38e51",
+      "uris": [
+        "/segment-fee"
+      ],
+      "scopes": [
+        {
+          "name": "scope:staff_access"
+        },
+        {
+          "name": "scope:head_access"
+        }
+      ]
+    },
+    {
+      "name": "Menu4",
+      "type": "urn:new-insurance:resource:menu",
+      "ownerManagedAccess": false,
+      "displayName": "Menu 4",
+      "attributes": {},
+      "_id": "59268e96-f27e-434b-b3d5-1ad64ddf781c",
+      "uris": [
+        "/menu4"
+      ]
+    },
+    {
+      "name": "Menu1",
+      "type": "urn:new-insurance:resource:menu",
+      "ownerManagedAccess": false,
+      "displayName": "Menu 1",
+      "attributes": {},
+      "_id": "cd1388a5-46d8-46e0-b804-17185333b6a7",
+      "uris": [
+        "/menu1"
+      ]
+    },
+    {
+      "name": "Menu2",
+      "type": "urn:new-insurance:resource:menu",
+      "ownerManagedAccess": false,
+      "displayName": "Menu 2",
+      "attributes": {},
+      "_id": "62561467-7b99-4ca4-8e2a-3e4f7efef42f",
+      "uris": [
+        "/menu2"
+      ]
+    },
+    {
+      "name": "Menu3",
+      "type": "urn:new-insurance:resource:menu",
+      "ownerManagedAccess": false,
+      "displayName": "Menu 3",
+      "attributes": {},
+      "_id": "12f047a0-4e2e-41f8-b014-6b4528216aab",
+      "uris": [
+        "/menu3"
+      ]
+    },
+    {
+      "name": "Menu5",
+      "type": "urn:new-insurance:resource:menu",
+      "ownerManagedAccess": false,
+      "displayName": "Menu 5",
+      "attributes": {},
+      "_id": "1ca7e1a7-ff61-49de-841d-527c7ce609d6",
+      "uris": [
+        "/menu5"
+      ]
+    },
+    {
+      "name": "Menu6",
+      "type": "urn:new-insurance:resource:menu",
+      "ownerManagedAccess": false,
+      "displayName": "Menu 6",
+      "attributes": {},
+      "_id": "dbd61aeb-8973-4d17-9ca8-14b1ce5be787",
+      "uris": [
+        "/menu6"
+      ]
+    },
+    {
+      "name": "Menu7",
+      "type": "urn:new-insurance:resource:menu",
+      "ownerManagedAccess": false,
+      "displayName": "Menu 7",
+      "attributes": {},
+      "_id": "0d71508e-8b06-4dc8-9aaf-4a399ad0f0de",
+      "uris": [
+        "/menu7"
+      ]
+    },
+    {
+      "name": "Menu8",
+      "type": "urn:new-insurance:resource:menu",
+      "ownerManagedAccess": false,
+      "displayName": "Menu 8",
+      "attributes": {},
+      "_id": "e7e781f7-09c1-4bdc-8594-1e468b57e9e2",
+      "uris": [
+        "/menu8"
+      ]
+    },
+    {
+      "name": "Menu9",
+      "type": "urn:new-insurance:resource:menu",
+      "ownerManagedAccess": false,
+      "displayName": "Menu 9",
+      "attributes": {},
+      "_id": "ec058a5b-26e7-4253-a8ee-254d55155293",
+      "uris": [
+        "/menu9"
+      ]
+    },
+    {
+      "name": "Menu10",
+      "type": "urn:new-insurance:resource:menu",
+      "ownerManagedAccess": false,
+      "displayName": "Menu 10",
+      "attributes": {},
+      "_id": "66508d1f-5f8d-4d83-b229-8844fbe3d3a0",
+      "uris": [
+        "/menu10"
+      ]
+    }
+  ],
+  "policies": [
+    {
+      "id": "d1c25832-4d2f-4bdd-9063-9037ab1dc549",
+      "name": "Insurance Head Policy",
+      "description": "Insurance Head Policy",
+      "type": "user",
+      "logic": "POSITIVE",
+      "decisionStrategy": "UNANIMOUS",
+      "config": {
+        "users": "[\"093498\",\"072328\",\"093499\",\"6000040\",\"093110\",\"093906\"]"
+      }
+    },
+    {
+      "id": "85d06387-ccd5-45f8-93f5-29aab253ed60",
+      "name": "Test Group Policy",
+      "description": "Test Group Policy",
+      "type": "group",
+      "logic": "POSITIVE",
+      "decisionStrategy": "UNANIMOUS",
+      "config": {
+        "groups": "[{\"path\":\"/Test Group\",\"extendChildren\":false}]",
+        "groupsClaim": "groups"
+      }
+    },
+    {
+      "id": "d02f6d19-9826-414a-a887-fca0403ac6f1",
+      "name": "Default Policy",
+      "description": "A policy that grants access only for users within this realm",
+      "type": "js",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "code": "// by default, grants any permission associated with this policy\n$evaluation.grant();\n"
+      }
+    },
+    {
+      "id": "a4290577-23ac-4132-90b7-8be873aa4f44",
+      "name": "Insurance Head By Role",
+      "description": "Insurance Head By Role",
+      "type": "role",
+      "logic": "POSITIVE",
+      "decisionStrategy": "UNANIMOUS",
+      "config": {
+        "roles": "[{\"id\":\"new-insurance/insurance_head\",\"required\":false}]"
+      }
+    },
+    {
+      "id": "095e1cf4-4d25-4ded-93e4-6433accb628d",
+      "name": "Insurance Staff By Role",
+      "description": "Insurance Staff By Role",
+      "type": "role",
+      "logic": "POSITIVE",
+      "decisionStrategy": "UNANIMOUS",
+      "config": {
+        "roles": "[{\"id\":\"new-insurance/insurance_staff\",\"required\":false}]"
+      }
+    },
+    {
+      "id": "737c01f5-640d-47e9-9c02-ca0a22efb1e4",
+      "name": "Insurance Head Permission",
+      "description": "Insurance Head Permission",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "UNANIMOUS",
+      "config": {
+        "scopes": "[\"scope:head_access\",\"claim:approval\"]",
+        "applyPolicies": "[\"Insurance Head Policy\"]"
+      }
+    },
+    {
+      "id": "28d69537-4771-4abe-9ed5-557158cac19b",
+      "name": "Permissions Resource Type Test",
+      "description": "Access Permissions for Menu",
+      "type": "resource",
+      "logic": "POSITIVE",
+      "decisionStrategy": "UNANIMOUS",
+      "config": {
+        "defaultResourceType": "urn:new-insurance:resource:menu",
+        "resources": "[\"Dashboard\"]",
+        "applyPolicies": "[\"Test Group Policy\"]"
+      }
+    },
+    {
+      "id": "1e394588-a667-463f-bcac-9773d851a9eb",
+      "name": "Default Permission",
+      "description": "A permission that applies to the default resource type",
+      "type": "resource",
+      "logic": "POSITIVE",
+      "decisionStrategy": "UNANIMOUS",
+      "config": {
+        "defaultResourceType": "urn:new-insurance:resources:default",
+        "applyPolicies": "[\"Default Policy\"]"
+      }
+    },
+    {
+      "id": "7ab03e8a-e79f-42ef-9cb0-60adda69536c",
+      "name": "Staff Access Pemission",
+      "description": "Staff Access Pemission",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "UNANIMOUS",
+      "config": {
+        "scopes": "[\"scope:staff_access\"]",
+        "applyPolicies": "[\"Insurance Staff By Role\"]"
+      }
+    }
+  ],
+  "scopes": [
+    {
+      "id": "d4c3ff41-1c87-4ba4-9f03-9283449e0715",
+      "name": "scope:head_access"
+    },
+    {
+      "id": "c077f9cb-5d08-420b-92be-262c0a91da7f",
+      "name": "scope:staff_access"
+    },
+    {
+      "id": "bddeb72f-2150-444c-bfae-bbe170d7a2f0",
+      "name": "claim:approval",
+      "displayName": "claim:approval"
+    }
+  ],
+  "decisionStrategy": "AFFIRMATIVE"
+}
